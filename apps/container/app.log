@@ -1,0 +1,73 @@
+yarn run v1.22.17
+$ craco start
+{
+  nwp: {
+    target: [ 'browserslist' ],
+    mode: 'development',
+    bail: false,
+    devtool: 'cheap-module-source-map',
+    entry: '/home/marcony/sandbox/mfe-cra/apps/container/src/index.ts',
+    output: { publicPath: 'auto' },
+    cache: {
+      type: 'filesystem',
+      version: '56e655ab29e15739b04e5da711108e4f',
+      cacheDirectory: '/home/marcony/sandbox/mfe-cra/apps/container/node_modules/.cache',
+      store: 'pack',
+      buildDependencies: [Object]
+    },
+    infrastructureLogging: { level: 'none' },
+    optimization: { minimize: false, minimizer: [Array] },
+    resolve: {
+      modules: [Array],
+      extensions: [Array],
+      alias: [Object],
+      plugins: [Array]
+    },
+    module: { strictExportPresence: true, rules: [Array] },
+    plugins: [
+      [HtmlWebpackPlugin],
+      [InterpolateHtmlPlugin],
+      [ModuleNotFoundPlugin],
+      [DefinePlugin],
+      [ReactRefreshPlugin],
+      [CaseSensitivePathsPlugin],
+      [WebpackManifestPlugin],
+      [IgnorePlugin],
+      [ForkTsCheckerWebpackPlugin],
+      [ESLintWebpackPlugin],
+      [ModuleFederationPlugin]
+    ],
+    performance: false
+  }
+}
+(node:16595) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:16595) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view app2 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.29.157.230:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+assets by path *.js 1.46 MiB
+  assets by chunk 1.09 MiB (id hint: vendors)
+    asset vendors-node_modules_react-dom_index_js.js 990 KiB [emitted] (id hint: vendors) 1 related asset
+    asset vendors-node_modules_react_index_js.js 78.8 KiB [emitted] (id hint: vendors) 1 related asset
+    asset vendors-node_modules_react_jsx-dev-runtime_js.js 44.1 KiB [emitted] (id hint: vendors) 1 related asset
+  asset main.js 369 KiB [emitted] (name: main) 1 related asset
+  asset src_bootstrap_tsx.js 5.43 KiB [emitted] 1 related asset
+  asset node_modules_object-assign_index_js-_ca720.js 2.6 KiB [emitted] 1 related asset
+  asset node_modules_object-assign_index_js-_ca721.js 2.6 KiB [emitted] 1 related asset
+asset index.html 1.66 KiB [emitted]
+asset asset-manifest.json 1.28 KiB [emitted]
+cached modules 1.34 MiB (javascript) 90 bytes (share-init) 84 bytes (consume-shared) 6 bytes (remote) 45.6 KiB (runtime) [cached] 117 modules
+webpack 5.68.0 compiled successfully in 1414 ms
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
